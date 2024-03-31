@@ -1,4 +1,4 @@
-# Python-Page-View-Time-Series-Visualizer-Project
+# Python-Page-View-Time-Series-Visualiser-Project
 ### About This Repository
 I independently completed freeCodeCamp's [Data Analysis with Python](https://www.freecodecamp.org/learn/data-analysis-with-python#data-analysis-with-python-course) certification, to invest in my data analytics skills with Python. This repository contains my independent problem-solving work as part of the [third project](https://www.freecodecamp.org/learn/data-analysis-with-python/data-analysis-with-python-projects/medical-data-visualizer) in this curriculum. I devised a Python script for this, which used Numpy to produce plots by analysing medical data. 
 
