@@ -1,3 +1,14 @@
+# IMPORTING MODULES AND DATA
+# %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+# %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+"""
+    -> In this file, we define three plotting functions 
+    -> The first draw_line_plot <- this creates a line plot of the data 
+    -> The second is draw_bar_plot <- this creates a bar plot 
+    -> The third is draw_box_plot <- This creates a box plot 
+    -> Modules are first imported 
+"""
 import matplotlib.pyplot as plt
 import pandas as pd
 import seaborn as sns
@@ -5,12 +16,27 @@ from pandas.plotting import register_matplotlib_converters
 register_matplotlib_converters()
 
 # Importing data and parsing dates, setting index column to 'date'
+"""
+    -> This section of code imports file data
+    -> We are provided this data in a CSV file 
+    -> This contains a time series for the number of page views to a given webpage 
+    -> We read this CSV data using the pandas .read_csv() method and store it in the `df` variable 
+    -> The data in the "date" column is then converted into a datetime type, using the pandas .to_datetime method <- we are converting 
+        them into daytime objects 
+    -> We change the index of this to "date" using the .sex_index pandas method so that it can be queried based on dates  
+    -> We then remove outliers from the data <- we are removing extreme datapoints, either which fall above the 97.5th percentile 
+        or below the 0.025th percentile in the set 
+"""
 df = pd.read_csv("./fcc-forum-pageviews.csv")
 df["date"] = pd.to_datetime(df["date"])
 df = df.set_index("date")
 
 # Cleaning data by removing outliers
 df = df[(df["value"] > df["value"].quantile(0.025)) & (df["value"] < df["value"].quantile(0.975))]
+
+# DEFINING LINE PLOT FUNCTION
+# %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+# %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 def draw_line_plot():
     # Drawing line plot
@@ -23,6 +49,10 @@ def draw_line_plot():
     # Saving image and returning fig
     fig.savefig('line_plot.png')
     return fig
+
+# DEFINING THE BAR PLOT FUNCTION
+# %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+# %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 def draw_bar_plot():
     # Copying and modifying data for monthly bar plot
@@ -38,6 +68,10 @@ def draw_bar_plot():
     # Saving image and returning fig
     fig.savefig('bar_plot.png')
     return fig
+
+# DEFINING THE BOX PLOT FUNCTION
+# %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+# %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 def draw_box_plot():
     # Preparing data for box plots
@@ -63,3 +97,6 @@ def draw_box_plot():
     # Saving image and returning fig
     fig.savefig('box_plot.png')
     return fig
+
+# %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+# %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
