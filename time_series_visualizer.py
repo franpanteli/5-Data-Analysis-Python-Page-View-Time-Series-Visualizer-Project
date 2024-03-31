@@ -37,6 +37,14 @@ df = df[(df["value"] > df["value"].quantile(0.025)) & (df["value"] < df["value"]
 # DEFINING LINE PLOT FUNCTION
 # %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 # %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+"""
+	-> This block of code is a plotting function which produces a line plot for the data
+	-> Subplots are first setup and stored in the `fig` and `ax` variables 
+	-> Axis labels are then set for the x, y axes and title of the plot
+	-> The plot is then created using the sns lineplot method 
+	-> We set the date for this equal to the data stored in the data frame previously imported in
+	-> The function then returns the figure in `fig`
+"""
 
 def draw_line_plot():
     # Drawing line plot
