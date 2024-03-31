@@ -1,0 +1,3 @@
+These are my notes on the project task page. This project is called "Page View Time Series Visualizer." The URL for the page which these notes are on is https://www.freecodecamp.org/learn/data-analysis-with-python/data-analysis-with-python-projects/page-view-time-series-visualizer
+
+- Clone the project boilerplate files in a Gitpod environment 
