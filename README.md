@@ -7,5 +7,5 @@ Notes on the task brief for this project were first written, which are [here](ht
 
 ### To Clone This Repository
 ```
-git clone https://github.com/franpanteli/Data-Analysis-Python-Page-View-Time-Series-Visualizer-Project.git
+git clone https://github.com/franpanteli/Data-Analysis-Python-Page-View-Time-Series-Visualiser-Project.git
 ```
