@@ -61,6 +61,24 @@ def draw_line_plot():
 # DEFINING THE BAR PLOT FUNCTION
 # %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 # %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+"""
+	-> This is the second plotting function which we are writing 
+	-> This generates and saves a bar plot for the data
+
+	-> The first section in this block creates the data which we want to plot: 
+		-> This is stored in its own variable, `df_bar` 
+		-> This is a copy of the original data, stored in the `df` variable 
+		-> Then we give the "month" and "year" columns of this data frame month and year indices 
+		-> Then group by the mean value of the columns in this data frame and unstack them <- pivot a level of the index labels (one 
+            label represents the years and the other represents the months)
+
+	-> Then we create a bar plot of this data and save it:
+		-> This is set equal to the `fig` variable 
+		-> We are making a bar chart, whose axis labels equal those defined in the question 
+		-> Setting a legend for the plot 
+		-> Then we are saving the figure from this, and returning it 
+	-> This gives us a plotting function which returns a bar chart for the data 
+"""
 
 def draw_bar_plot():
     # Copying and modifying data for monthly bar plot
