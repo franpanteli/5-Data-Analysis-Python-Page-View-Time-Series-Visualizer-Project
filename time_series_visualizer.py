@@ -1,7 +1,6 @@
 # IMPORTING MODULES AND DATA
 # %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 # %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 """
     -> In this file, we define three plotting functions 
     -> The first draw_line_plot <- this creates a line plot of the data 
@@ -9,6 +8,7 @@
     -> The third is draw_box_plot <- This creates a box plot 
     -> Modules are first imported 
 """
+
 import matplotlib.pyplot as plt
 import pandas as pd
 import seaborn as sns
@@ -27,6 +27,7 @@ register_matplotlib_converters()
     -> We then remove outliers from the data <- we are removing extreme datapoints, either which fall above the 97.5th percentile 
         or below the 0.025th percentile in the set 
 """
+
 df = pd.read_csv("./fcc-forum-pageviews.csv")
 df["date"] = pd.to_datetime(df["date"])
 df = df.set_index("date")
@@ -98,6 +99,36 @@ def draw_bar_plot():
 # DEFINING THE BOX PLOT FUNCTION
 # %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 # %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+"""
+    -> About this block of code:
+        -> This is the third plotting function which we are writing 
+        -> This generates and saves a box plot of the data
+        -> This uses a similar approach to the previous question:
+            -> Import and clean the data
+            -> Generate the plots 
+            -> Save the plots 
+
+    -> To import and clean the data:
+        -> df_box <- We first create a copy of the entire dataset, but just for generating box plots from 
+            -> We also set the index of this to be a number, not a date
+        -> Then we define two columns in the data frame which we are using to produce the data -> one for the year and one for the 
+            month of the time series 
+
+    -> To draw the boxplots: 
+        -> We first set up a matrix of subplots, using the .subplot method 
+        -> These subplots are stored in the `fig` and `axes` variables 
+        -> In the project question file, we were told to generate two box plots for this 
+        -> The top block here generates the first of these plots and the bottom block draws the second plot 
+        -> sns.boxplot <- This tells the code to generate box plots of these values 
+            -> These values are of the data which we just cleaned 
+            -> We are creating these plots according to the 'aim' ones in the project directory 
+            -> This is how we determine which data gets plotted where
+        -> The bottom three lines of code for each of these two blocks set the labels on the x and y axes, and the titles of these 
+            figures  
+
+    -> Save the plots: 
+        -> Then we save and return the figure <- The plotting function is outputting the figure when it's called 
+"""
 
 def draw_box_plot():
     # Preparing data for box plots
