@@ -9,7 +9,8 @@ Notes on the task brief for this project were first written, which are [here](ht
 #### Aim Plots
 <img width="1036" alt="Screenshot 2024-04-01 at 14 38 35" src="https://github.com/franpanteli/Data-Analysis-Python-Page-View-Time-Series-Visualiser-Project/assets/131474705/47d0f4cb-ca47-416f-a2df-091588f44402"> 
 <img width="689" alt="Screenshot 2024-04-01 at 14 40 28" src="https://github.com/franpanteli/Data-Analysis-Python-Page-View-Time-Series-Visualiser-Project/assets/131474705/4e5f22ca-8aff-4e35-a156-110ec5e24f35">
-![Figure_3](https://github.com/franpanteli/Data-Analysis-Python-Page-View-Time-Series-Visualiser-Project/assets/131474705/73130fe8-5e90-4c71-a567-1ff2b7227d9f)
+![Screenshot 2024-04-01 at 15 10 14](https://github.com/franpanteli/Data-Analysis-Python-Page-View-Time-Series-Visualiser-Project/assets/131474705/d5662cf1-b215-4376-a7c6-2d64df17f1f6)
+
 
 The `draw_line_plot`, `draw_bar_plot` and `draw_box_plot` functions were coded into the project [time_series_visualizer.py](https://github.com/franpanteli/Data-Analysis-Python-Page-View-Time-Series-Visualiser-Project/blob/main/time_series_visualizer.py) file, to generate plots of this nature using the time series input data. This file was annotated with problem-solving approaches to produce plotting functions for this. These performed calculations on the project data and generated the plots in the [Output Files](https://github.com/franpanteli/Data-Analysis-Python-Page-View-Time-Series-Visualiser-Project/tree/main/Output%20Files) directory. These output plots are also provided below. 
 
