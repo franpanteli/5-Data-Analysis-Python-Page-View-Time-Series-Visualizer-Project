@@ -17,9 +17,8 @@ The `draw_line_plot`, `draw_bar_plot` and `draw_box_plot` functions were coded i
 
 Output plot 1:
 ![Screenshot 2024-04-01 at 14 50 25](https://github.com/franpanteli/Data-Analysis-Python-Page-View-Time-Series-Visualiser-Project/assets/131474705/30b4ac97-39a2-45d8-8320-4c939deae2e5)
-<img width="596" alt="Screenshot 2024-04-01 at 14 51 01" src="https://github.com/franpanteli/Data-Analysis-Python-Page-View-Time-Series-Visualiser-Project/assets/131474705/9512bec0-3636-44ec-8987-c4337e39956d">
+<img width="596" alt="Screenshot 2024-04-01 at 14 51 01" src="https://github.com/franpanteli/Data-Analysis-Python-Page-View-Time-Series-Visualiser-Project/assets/131474705/9512bec0-3636-44ec-8987-c4337e39956d"> Output plot 2:
 
-Output plot 2:
 ![Screenshot 2024-04-01 at 14 51 39](https://github.com/franpanteli/Data-Analysis-Python-Page-View-Time-Series-Visualiser-Project/assets/131474705/0e34956f-8a2e-43fb-9770-149ce1109d98)
 
 Project files were pushed to this repository once all unit tests ([test_module.py](https://github.com/franpanteli/Data-Analysis-Python-Medical-Data-Visualiser-Project/blob/main/py%20Files/test_module.py) and [main.py](https://github.com/franpanteli/Data-Analysis-Python-Medical-Data-Visualiser-Project/blob/main/py%20Files/main.py)) had successfully passed and its URL was submitted. This aided in developing statistical and data analytics skills with Numpy and marked the completion of the fourth project in the course. 
