@@ -23,7 +23,7 @@ The `draw_line_plot`, `draw_bar_plot` and `draw_box_plot` functions were coded i
 ![Screenshot 2024-04-01 at 14 51 39](https://github.com/franpanteli/Data-Analysis-Python-Page-View-Time-Series-Visualiser-Project/assets/131474705/0e34956f-8a2e-43fb-9770-149ce1109d98)
 
 #### Submission & Testing
-Project files were pushed to this repository once all unit tests ([test_module.py](https://github.com/franpanteli/Data-Analysis-Python-Medical-Data-Visualiser-Project/blob/main/py%20Files/test_module.py) and [main.py](https://github.com/franpanteli/Data-Analysis-Python-Medical-Data-Visualiser-Project/blob/main/py%20Files/main.py)) had successfully passed and its URL was submitted. This aided in developing statistical and data analytics skills with Numpy and marked the completion of the fourth project in the course as part of my independent problem solving work. 
+Project files were pushed to this repository once all unit tests ([test_module.py](https://github.com/franpanteli/Data-Analysis-Python-Medical-Data-Visualiser-Project/blob/main/py%20Files/test_module.py) and [main.py](https://github.com/franpanteli/Data-Analysis-Python-Medical-Data-Visualiser-Project/blob/main/py%20Files/main.py)) had successfully passed and its URL was submitted. This aided in developing statistical and data analytics skills with NumPy and marked the completion of the fourth project in the course as part of my independent problem solving work. 
 
 ### To Clone This Repository
 ```
