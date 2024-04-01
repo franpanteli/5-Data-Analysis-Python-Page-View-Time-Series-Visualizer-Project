@@ -14,7 +14,7 @@ Notes on the task brief for this project were first written, which are [here](ht
 
 #### Writing The Project time_series_visualizer.py File
 
-The `draw_line_plot`, `draw_bar_plot` and `draw_box_plot` functions were coded into the project [time_series_visualizer.py](https://github.com/franpanteli/Data-Analysis-Python-Page-View-Time-Series-Visualiser-Project/blob/main/time_series_visualizer.py) file, to generate plots of this nature using the time series input data. This file was annotated with problem-solving approaches to produce plotting functions for this. These performed calculations on the project data and generated the plots in the [Output Files](https://github.com/franpanteli/Data-Analysis-Python-Page-View-Time-Series-Visualiser-Project/tree/main/Output%20Files) directory. These output plots are also provided below. 
+The `draw_line_plot`, `draw_bar_plot` and `draw_box_plot` functions were coded into the project [time_series_visualizer.py](https://github.com/franpanteli/Data-Analysis-Python-Page-View-Time-Series-Visualiser-Project/blob/main/time_series_visualizer.py) file, to generate plots of this nature using the time series input data. This file was annotated with problem-solving approaches to produce plotting functions for this. These performed calculations on the project data and generated the plots in the [Output Files](https://github.com/franpanteli/Data-Analysis-Python-Page-View-Time-Series-Visualiser-Project/tree/main/Output%20Files) directory. The output plots produced by these functions are also provided below. 
 
 #### Output Plots
 ![Screenshot 2024-04-01 at 14 50 25](https://github.com/franpanteli/Data-Analysis-Python-Page-View-Time-Series-Visualiser-Project/assets/131474705/30b4ac97-39a2-45d8-8320-4c939deae2e5)
