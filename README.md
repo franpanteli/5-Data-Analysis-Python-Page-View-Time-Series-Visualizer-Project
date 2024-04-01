@@ -17,7 +17,7 @@ The `draw_line_plot`, `draw_bar_plot` and `draw_box_plot` functions were coded i
 
 #### Output Plots
 ![Screenshot 2024-04-01 at 14 50 25](https://github.com/franpanteli/Data-Analysis-Python-Page-View-Time-Series-Visualiser-Project/assets/131474705/30b4ac97-39a2-45d8-8320-4c939deae2e5)
-<img width="596" alt="Screenshot 2024-04-01 at 14 51 01" src="https://github.com/franpanteli/Data-Analysis-Python-Page-View-Time-Series-Visualiser-Project/assets/131474705/9512bec0-3636-44ec-8987-c4337e39956d"> Output plot 2:
+<img width="596" alt="Screenshot 2024-04-01 at 14 51 01" src="https://github.com/franpanteli/Data-Analysis-Python-Page-View-Time-Series-Visualiser-Project/assets/131474705/9512bec0-3636-44ec-8987-c4337e39956d"> 
 
 ![Screenshot 2024-04-01 at 14 51 39](https://github.com/franpanteli/Data-Analysis-Python-Page-View-Time-Series-Visualiser-Project/assets/131474705/0e34956f-8a2e-43fb-9770-149ce1109d98)
 
