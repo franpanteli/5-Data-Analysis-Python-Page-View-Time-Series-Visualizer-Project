@@ -9,6 +9,7 @@ Notes on the task brief for this project were first written, which are [here](ht
 #### Aim Plots
 <img width="1036" alt="Screenshot 2024-04-01 at 14 38 35" src="https://github.com/franpanteli/Data-Analysis-Python-Page-View-Time-Series-Visualiser-Project/assets/131474705/47d0f4cb-ca47-416f-a2df-091588f44402"> 
 <img width="689" alt="Screenshot 2024-04-01 at 14 40 28" src="https://github.com/franpanteli/Data-Analysis-Python-Page-View-Time-Series-Visualiser-Project/assets/131474705/4e5f22ca-8aff-4e35-a156-110ec5e24f35">
+
 ![Screenshot 2024-04-01 at 15 10 14](https://github.com/franpanteli/Data-Analysis-Python-Page-View-Time-Series-Visualiser-Project/assets/131474705/d5662cf1-b215-4376-a7c6-2d64df17f1f6)
 
 
