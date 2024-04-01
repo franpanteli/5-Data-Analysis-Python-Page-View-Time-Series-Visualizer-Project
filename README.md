@@ -1,5 +1,4 @@
 # Python-Page-View-Time-Series-Visualiser-Project
-time_series_visualizer.py
 ### About This Repository
 I independently completed freeCodeCamp's [Data Analysis with Python](https://www.freecodecamp.org/learn/data-analysis-with-python#data-analysis-with-python-course) certification, to invest in my data analytics skills with Python. This repository contains my independent problem-solving work as part of the [fourth project](https://www.freecodecamp.org/learn/data-analysis-with-python/data-analysis-with-python-projects/page-view-time-series-visualizer) in this curriculum. I devised a Python script for this which used pandas, seaborn and matplotlib to produce plots by analysing time series data for visitations to a website.
 
