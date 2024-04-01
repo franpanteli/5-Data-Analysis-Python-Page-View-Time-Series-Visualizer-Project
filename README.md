@@ -6,7 +6,8 @@ I independently completed freeCodeCamp's [Data Analysis with Python](https://www
 Notes on the task brief for this project were first written, which are [here](https://github.com/franpanteli/Data-Analysis-Python-Page-View-Time-Series-Visualiser-Project/blob/main/1%20project-task-notes.txt). The project boilerplate files were next cloned in a Gitpod environment. This included CSV data involving time series data for the number of visitations made to a website ([fcc-forum-pageviews.csv](https://github.com/franpanteli/Data-Analysis-Python-Page-View-Time-Series-Visualiser-Project/blob/main/fcc-forum-pageviews.csv)). Python was desired which produced three output plots for this data. Three aim plots were provided for this, which are in the [Aim](https://github.com/franpanteli/Data-Analysis-Python-Page-View-Time-Series-Visualiser-Project/tree/main/Aim) directory in this repository and also given below. 
 
 Aim plot 1:
-<img width="1036" alt="Screenshot 2024-04-01 at 14 38 35" src="https://github.com/franpanteli/Data-Analysis-Python-Page-View-Time-Series-Visualiser-Project/assets/131474705/47d0f4cb-ca47-416f-a2df-091588f44402"> Aim plot 2: <img width="689" alt="Screenshot 2024-04-01 at 14 40 28" src="https://github.com/franpanteli/Data-Analysis-Python-Page-View-Time-Series-Visualiser-Project/assets/131474705/4e5f22ca-8aff-4e35-a156-110ec5e24f35">
+<img width="1036" alt="Screenshot 2024-04-01 at 14 38 35" src="https://github.com/franpanteli/Data-Analysis-Python-Page-View-Time-Series-Visualiser-Project/assets/131474705/47d0f4cb-ca47-416f-a2df-091588f44402"> Aim plot 2: 
+<img width="689" alt="Screenshot 2024-04-01 at 14 40 28" src="https://github.com/franpanteli/Data-Analysis-Python-Page-View-Time-Series-Visualiser-Project/assets/131474705/4e5f22ca-8aff-4e35-a156-110ec5e24f35">
 
 Aim plot 3:
 ![Figure_3](https://github.com/franpanteli/Data-Analysis-Python-Page-View-Time-Series-Visualiser-Project/assets/131474705/73130fe8-5e90-4c71-a567-1ff2b7227d9f)
